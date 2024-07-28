@@ -1,0 +1,204 @@
+<style>
+    body {
+          font-family: 'Montserrat', sans-serif;
+          margin: 0;
+          padding: 0;
+          /*background-color: #3456da;*/
+      }
+    .container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    .left-panel {
+        width: 50%;
+        overflow: hidden;
+        background-image: url('assets/left_side_bg.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        color: #fff;
+        padding-left: 40px;
+    }
+
+    .logo-container {
+        position: absolute;
+        top: 16px;
+        left: 38px;
+    }
+
+    .tagline {
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50.4px;
+    }
+
+    .watch-demo-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('assets/rectangle-903.svg');
+        width: 296px;
+        height: 94px;
+        margin-top: 20px;
+    }
+
+    .watch-demo-btn img {
+        margin-left: 24px;
+        width: 62px;
+        height: 62px;
+    }
+
+    .watch-demo-btn span {
+        margin-left: 24px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .bottom-links {
+        position: absolute;
+        bottom: 16px;
+        left: 40px;
+        opacity: 0.8;
+    }
+
+    .bottom-links a {
+        margin-right: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .right-panel {
+        width: 50%;
+        overflow: hidden;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        position: relative;
+    }
+
+    .form-container {
+        width: 528px;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+    }
+
+    .form-container h2 {
+        margin-bottom: 30px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .form-group {
+        margin-bottom: 40px;
+    }
+
+    .form-group input {
+        width: 100%;
+        height: 48px;
+        border-radius: 4px;
+        border: none;
+        padding: 0 20px;
+        background-image: url('assets/rectangle-828.svg');
+        background-size: cover;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .form-group label {
+        font-weight: 500;
+        font-size: 16px;
+        color: #5e6366;
+    }
+
+    .checkbox-group {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .checkbox-group img {
+        margin-right: 10px;
+    }
+
+    .btn-login {
+        width: 100%;
+        height: 56px;
+        background-image: url('assets/rectangle-830.svg');
+        background-size: cover;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .links {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .links a {
+        display: block;
+        color: #5e6366;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+  </style>
+<div class="container">
+  <div class="left-panel">
+    <div class="logo-container">
+      <img src="assets/group-1111.svg" alt="Logo">
+    </div>
+    <h1 class="tagline">Take Your Hospitality Management to the Next Level with Superkill.app</h1>
+    <div class="watch-demo-btn">
+      <img src="assets/group-1108.svg" alt="Play Icon">
+      <span>Watch Demo</span>
+    </div>
+    <div class="bottom-links">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Company</a>
+    </div>
+  </div>
+  <div class="right-panel">
+    <div class="form-container">
+      <img src="assets/group-1107.svg" alt="Superskill Logo" style="display: block; margin: 0 auto 30px;">
+      <h2>Login</h2>
+      <div class="form-group">
+        <label for="email">Email or Mobile Number</label>
+        <input type="text" id="email" placeholder="Email or Mobile Number">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <div class="checkbox-group">
+        <img src="assets/square.svg" alt="Checkbox">
+        <span>Keep me login</span>
+      </div>
+      <div class="btn-login">Login</div>
+      <div class="links">
+        <a href="#">Forgot Your Password?</a>
+        <a href="#">Didn’t receive confirmation instructions?</a>
+      </div>
+    </div>
+  </div>
+</div>
